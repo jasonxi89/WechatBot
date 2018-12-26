@@ -1,0 +1,11 @@
+Begin to code for the core.
+Installed pymysql for python 3 √
+
+
+12/20/2018
+It is almost Christmas. I wanna make a special gift for my mom. So i decided to make a software for her. Since everyone in China are using Wechat. So i decided to make a .py running on a Pi3. I hope it could implements some functions to management the store inventory for my mom. The database i using is SQL. The funcstion i want to implements:
+1.Manage the store inventory
+2.Manage the cost
+So basicly, i want to make it easyier. Like when the robot get the message "Check", then it will reply what my mom want to check. It could be last order, last statement or whatever she want.
+It is not a small project for me. But i will try to do this within one week. Hope i could get this.
+Peace & Love
