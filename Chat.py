@@ -14,15 +14,16 @@ def sqlQuery(query):
     return values
 
 
-for row in sqlQuery('select * from orderStatus'):
-    print('利达单号'+ row[1] + ' ,国内快递号'+row[2])
+@itchat.msg_register(itchat.content.TEXT)
+def text_reply(msg):
+    if msg.text == 'check':
+        for row in sqlQuery('select * from orderStatus'):
+            itchat.send_msg('利达单号'+ row[1] + ' ,国内快递号'+row[2], msg['FromUserName'])
 
 
+if __name__ == "__main__":
+    itchat.auto_login()
+    itchat.run()
 
-
-# if __name__ == "__main__":
-#     itchat.auto_login(enableCmdQR=2)
-#     itchat.run()
-#
 
 
