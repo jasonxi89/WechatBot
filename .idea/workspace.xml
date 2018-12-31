@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WechatBot$Chat.coverage" NAME="Chat Coverage Results" MODIFIED="1546208355776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WechatBot$Chat.coverage" NAME="Chat Coverage Results" MODIFIED="1546219214623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WechatBot$core.coverage" NAME="core Coverage Results" MODIFIED="1545794613317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -19,12 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="421">
+              <caret line="25" column="86" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="86" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <element signature="e#73#336#0" />
-                <element signature="e#438#542#0" />
               </folding>
             </state>
           </provider>
@@ -163,33 +162,47 @@
       <workItem from="1545786016225" duration="9366000" />
       <workItem from="1545796732058" duration="1014000" />
       <workItem from="1546137607951" duration="5856000" />
-      <workItem from="1546202887316" duration="2709000" />
+      <workItem from="1546202887316" duration="9236000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated the 'check' function for msg">
+      <created>1546209012999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546209012999</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated the 'check' function for msg">
+      <created>1546209140298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546209140298</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18945000" />
+    <option name="totallyTimeSpent" value="25472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11811652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32870865" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32870865" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977587" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32942432" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32870865" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32977587" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -201,6 +214,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated the 'check' function for msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the 'check' function for msg" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/PycharmProjects/untitled/venv/Lib/site-packages/PIL/JpegImagePlugin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -211,12 +254,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="421">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="85" selection-end-line="25" selection-end-column="86" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#73#336#0" />
-            <element signature="e#438#542#0" />
           </folding>
         </state>
       </provider>
