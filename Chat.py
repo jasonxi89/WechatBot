@@ -24,9 +24,16 @@ def text_reply(msg):
         else:
             for row in sqlQuery('select * from orderStatus limit'+num):
                 itchat.send_msg('利达单号'+ row[1] + ' ,国内快递号'+row[2], msg['FromUserName'])
-    if '买' in msg.text:
-
-    if msg.text == '功能':
+    elif "买" in msg.text:
+        print(msg.text)
+        reString = re.sub("买", "", msg.text)
+        itemQua = re.findall(u"([^\u4e00-\u9fa5])", reString)
+        itemName = re.findall(u"([\u4e00-\u9fa5])", reString)
+        itemQua = ''.join(itemQua)
+        itemName = ''.join(itemName)
+        sqlQuery('insert into ')
+        itchat.send_msg(itemName + itemQua, msg['FromUserName'])
+    elif msg.text == "功能":
         itchat.send_msg('回复查单+数字显示最近单号，默认显示10，例:查单 15显示最近15个订单', msg['FromUserName'])
         itchat.send_msg('回复查买+数字显示最近下单买的东西，默认显示是，例：查买 15显示最近15个需要购买的状态', msg['FromUserName'])
         itchat.send_msg('回复买+物品+数量,下单购买物品，例：买 小熊糖 10', msg['FromUserName'])
