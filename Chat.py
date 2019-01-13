@@ -3,6 +3,7 @@ import pymysql
 import re
 
 
+
 def sqlQuery(query):
     conn = pymysql.connect(host='192.168.31.168', port=3307, user='test', password='123456', db='test',
                            use_unicode=True)
@@ -20,7 +21,7 @@ users = []
 @itchat.msg_register(itchat.content.TEXT)
 def text_reply(msg):
     # Need admin function first.Use the key to add to users, then could use the function
-    if "刘主任辛苦了"c in msg.text:
+    if "刘主任辛苦了" in msg.text:
         users.append(msg['FromUserName'])
         itchat.send_msg("小同志你说的很对，我看你很有前途嘛,不会用可以说功能嘛，用完了可以说再见，要不然会一直自动回复你", msg['FromUserName'])
         return
@@ -69,5 +70,5 @@ def text_reply(msg):
 
 
 if __name__ == "__main__":
-    itchat.auto_login(enableCmdQR=2)
+    itchat.auto_login()
     itchat.run()
